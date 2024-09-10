@@ -14,8 +14,8 @@ function throwForBadSpawn(basicInfo, spawnSyncResult) {
 }
 
 function install() {
-  const installPath = path.resolve(homedir(), '.electron_build_tools');
-  const BUILD_TOOLS_URL = 'https://github.com/electron/build-tools';
+  const installPath = path.resolve(homedir(), '.ow_electron_build_tools');
+  const BUILD_TOOLS_URL = 'https://github.com/overwolf/ow-electron-build-tools';
 
   try {
     // Clone build-tools into user homedir
@@ -62,7 +62,7 @@ function install() {
       }),
     );
   } catch (err) {
-    console.error('Failed to install build-tools: ', err);
+    console.error('Failed to install ow-electron-build-tools: ', err);
 
     // Delete cloned repo to prevent retry failure.
     if (existsSync(installPath)) {

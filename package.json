@@ -1,6 +1,6 @@
 {
-  "name": "@electron/build-tools",
-  "version": "0.0.0-development",
+  "name": "@overwolf/ow-electron-build-tools",
+  "version": "1.2.0",
   "description": "A wrapper toolkit for working with Electron.js source code",
   "main": "index.js",
   "bin": {
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/build-tools-installer.git"
+    "url": "git+https://github.com/overwolf/ow-electron-build-tools-installer.git"
   },
   "author": "Shelley Vohr <shelley.vohr@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/electron/build-tools-installer/issues"
+    "url": "https://github.com/overwolf/ow-electron-build-tools-installer/issues"
   },
-  "homepage": "https://github.com/electron/build-tools-installer#readme",
+  "homepage": "https://github.com/overwolf/ow-electron-build-tools-installer#readme",
   "devDependencies": {
     "mocha": "^10.1.0",
     "prettier": "^1.19.1"

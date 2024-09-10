@@ -5,7 +5,7 @@ const { execSync } = require('child_process');
 const { resolve } = require('path');
 
 it('installs build-tools to the home directory', () => {
-  const buildToolsDir = resolve(homedir(), '.electron_build_tools');
+  const buildToolsDir = resolve(homedir(), '.ow_electron_build_tools');
   const dirExists = existsSync(buildToolsDir);
   assert.strictEqual(dirExists, true);
 });

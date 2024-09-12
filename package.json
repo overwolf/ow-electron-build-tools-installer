@@ -1,10 +1,10 @@
 {
   "name": "@overwolf/ow-electron-build-tools",
-  "version": "1.2.0",
+  "version": "1.2.0-1",
   "description": "A wrapper toolkit for working with Electron.js source code",
   "main": "index.js",
   "bin": {
-    "e": "./run.js",
+    "e-owe": "./run.js",
     "electron-build-tools": "./run.js"
   },
   "files": [
